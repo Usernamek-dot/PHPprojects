@@ -1,0 +1,82 @@
+*{
+margin : 0;
+padding : 0;
+font-family: 'Baloo Paaji 2', cursive;
+}
+
+body{
+background: #fceabb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height : 650px ;
+display : flex ;
+justify-content : center ;
+align-items : center ;
+}
+
+h2{
+text-align : center ;
+}
+
+form{
+background : #fff ;
+padding : 40px 0 ;
+box-shadow : 0  0 6px rgba(255, 255, 255, .8) ;
+border-radius : 10px ;
+width : 30% ;
+}
+
+.form{
+width : 100% ;
+margin : auto ;
+}
+
+.casilla{
+position : relative ;
+margin : 45px ;
+
+}
+
+input{
+background : none ;
+color : #c6c6c6 ;
+font-size : 18px ;
+text-align : center ;
+padding : 10px 10px 10px 5px  ;
+display : block ;
+width : 80% ;
+border: 0;
+border-bottom : 1px solid #49454567 ;
+}
+
+input:focus{
+outline : none;
+color :  #2c3e50 ;
+}
+
+label{
+color : #c6c6c6 ;
+position : absolute;
+left : 5px ;
+top :  10px ;
+transition : 0.5s ease-in-out all;
+pointer-events : none ;
+}
+	//selector avanzado de hermanos
+input:focus~label{
+top : -14px ;
+font-size : 12px ;
+}
+
+button{
+font-family : "roboto" ;
+background: linear-gradient(to right, #f8b500, #fceabb);
+border : none;
+display : block;
+margin-top : 40px ;
+width : 80%;
+outline : 0 ;
+height : 27px;
+cursor : pointer ;
+
+}
