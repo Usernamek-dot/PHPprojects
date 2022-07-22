@@ -1,0 +1,87 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Formulario</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="logo.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h2>Responde estas preguntas</h2>
+
+<form method="post" action="formulario.php"  class="formulario" >
+<div class="container">
+	<label for="nombre">Nombre</label>   <input type="text" name="nombre"><br><br>
+
+	<label for="apellido">Apellido</label>   <input type="text" name="apellido"><br><br>
+
+	<label for="documento">Tipo de Documento De Identidad</label>  
+						 <select name="documento" id="documento" class="select">	 
+							 <option value="Tarjeta"> Tarjeta de Identidad </option>	
+							 <option value="Cedula">    Cedula                  </option>
+							 <option value="Extranjeria"> Cedula de extranjeria   </option>
+						</select><br><br>
+		            
+	<label for="genero">Género</label><br><br>	
+				<label for="mujer" class="noSombra">Mujer</label>   <input type="radio" name="genero" id="mujer" value="mujer" class="complejo">
+
+				<label for="hombre" class="noSombra">Hombre</label>   <input type="radio" name="genero" id="hombre" value="hombre" class="complejo"><br><br>
+
+	<label for="telefono">Teléfono</label>   <input type="tel" name="telefono"><br><br>
+
+	<label for="correo">Correo Electrónico</label>   <input type="email" name="correo"><br><br>
+
+	<label for="direccion">Dirección de domicilio</label>   <input type="text" name="direccion"><br><br>
+
+	<br><label for="pasatiempos">Pasatiempos:</label>  	 <select multiple="multiple" name="pasatiempos[]" id="pasatiempos" class="select pasatiempos" >	 
+							<option value="comer"> 	Comer		</option>	
+							<option value="dormir">	Dormir     	</option>
+							<option value="leer">	Leer		</option>
+							<option value=" ejercicio">	Hacer Ejercicio	</option>
+							<option value="poemas">	Escribir Poemas	</option>
+							<option value="nada">	No hacer nada	</option>
+							<option value="nadar">	Nadar		</option>
+							<option value="chistes">	Hacer chistes	</option>
+							<option value="meditar">	Meditar		</option>
+							<option value="musica">	Escuchar Música	</option>
+							<option value="rompecabezas"> Rompecabezas	</option>
+							<option value="ahorcado">	Jugar al ahorcado	</option>
+							<option value="pasear">	Pasear		</option>
+							<option value="volar">	Volar		</option>
+							<option value="busear">	Busear		</option>
+							<option value="pintar">	Pintar		</option>
+							<option value="ventana">	Mirar por la ventana	</option>
+							<option value="hablar">	Hablar		</option>
+							<option value="piano">	Tocar el piano	</option>
+							<option value="jugar">	Jugar		</option>		
+						</select><br><br>
+	
+	<br><label>Deportes que practica</label><br><br>
+
+	<label class="noSombra">Natación</label>	<input type="checkbox" name="deportes[]" value="natacion" class="complejo2">	
+	<label class="noSombra">Futbol</label>   	<input type="checkbox" name="deportes[]" value="futbol" class="complejo2">	
+	<label class="noSombra">Escalada</label>   	<input type="checkbox" name="deportes[]" value="escalada" class="complejo2">	
+	<label class="noSombra">Karate</label>   	<input type="checkbox" name="deportes[]" value="karate" class="complejo2">	
+	<label class="noSombra">Patinar</label>   	<input type="checkbox" name="deportes[]" value="patinar" class="complejo2">	<br><br>	
+	<label class="noSombra">Hockey</label>   	<input type="checkbox" name="deportes[]" value="hockey" class="complejo2">	
+	<label class="noSombra">Judo</label>   	<input type="checkbox" name="deportes[]" value="judo" class="complejo2">		
+	<label class="noSombra">Kun fu</label>   	<input type="checkbox" name="deportes[]" value="kunFu" class="complejo2">	
+	<label class="noSombra">Motociclismo</label>  <input type="checkbox" name="deportes[]" value="motociclismo" class="complejo2">	
+	<label class="noSombra">Parkour</label>   	<input type="checkbox" name="deportes[]" value="parkour" class="complejo2">	
+
+	<br><br><label for="comentario" >Perfil Profesional </label><br>   	<textarea name="comentario" class="textarea"></textarea>
+
+	<br><input type="submit" value="Go" class="button">	
+</div>	
+</form>
+
+<h3>Gracias por contestar el formulario ! </h3>
+
+</body>
+</html>

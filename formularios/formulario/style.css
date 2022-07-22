@@ -1,0 +1,101 @@
+*{ margin : 0 ;   padding : 0 ;  }
+
+body{
+background: #FFE000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Raleway', sans-serif;
+ }
+
+h2{
+margin-top : 40px ;
+text-align : center ;
+color : #fff ;
+font-size : 37px ;
+font-weight : 300 ;
+box-shadow : 4px 0px 4px 4px #fff ;
+padding : 4px ;
+}
+
+.formulario{
+width : 50% ;
+margin : auto ;
+margin-top : 50px ;
+padding : 40px ;
+color : #fff ;
+}
+
+.container { 
+padding : 40px ; 
+border : 3px solid rgba(255, 234, 167,0.3) ;
+ }
+
+label{
+background : rgba(220, 221, 225,0.2) ;
+border-radius :  10px ;
+padding : 4px ; 
+}
+
+.noSombra{
+background : none ;
+border-radius :  none ;
+padding : none ; 
+}
+
+input, .select, .textarea{
+border : 0 ;
+border-radius :  5px ;
+outline : none ;
+background-color : rgba(45, 52, 54,0.2) ;
+color : #fff ;
+text-align : right ;
+height : 25px ;
+width : 100% ;
+margin-top : 10px ;
+font-size : 15px ;
+margin-top : 17px ;
+margin-bottom : 17px ;
+}
+
+.complejo{
+width : 30px ;
+height : 17px ;
+margin-right : 100px ;
+}
+
+.pasatiempos{
+height : 90px;
+text-align : center ;
+} 
+
+.complejo2{
+width : 30px ;
+height : 16px ;
+margin-right : 10px ;
+}
+
+.textarea{
+width : 100%;
+height : 100px ;
+}
+
+.button{
+width : 40% ;
+margin-left : 30% ;
+ background: #FFE000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align : center ;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+box-shadow : 1px 1px 1px 1px #000 ;
+}
+
+h3{
+margin-top : 40px ;
+text-align : center ;
+color : #fff ;
+font-size : 37px ;
+font-weight : 300 ;
+margin-bottom : 10px ;
+}
